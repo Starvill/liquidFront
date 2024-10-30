@@ -1,0 +1,43 @@
+.slider-auction-container{
+    max-width: 35%;
+    margin-left: 1%;
+}
+.car-name-auction{
+    color: white;
+    font-size: 3.2vh;
+}
+.auction-car-label{
+    height:6vh;
+    margin-top: 4vh;
+}
+.alligment-auction{
+    margin-top: 10vh;
+    margin-left: 1%;
+}
+.car-info-auction{
+    width:32%;
+}
+.auction{
+    width:28%;
+}
+.make-a-bet-auc{
+    margin-top: 2vh;
+	width: 46.5%;
+	height: 36px;
+	border: solid black 1.7px;
+	background-color: yellow;
+	border-radius: 3px; /* Сделать как аккаунт*/
+}
+.bet-right-now-auc{
+	width: 48%;
+	margin-right: 4%;
+	align-self: center;
+	margin-top: 2vh;
+	padding: 7px;
+    height: 36px;
+	color: black;
+	background-color: rgb(240, 240, 240);
+	border: solid black 1.7px;
+	border-radius: 3px;
+	text-align: center;
+}

@@ -1,0 +1,266 @@
+.inventory-container{
+  background: rgb(48, 46, 46);
+  display: flex;
+  flex-direction: row;
+}
+
+.inventory-label{
+  background: yellow;
+  font-size: 2em;
+  padding-left: 10%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.inventory-list{
+  width:74.5%;
+  margin-left: 5%;
+  background: rgb(48, 46, 46);
+  color: white;
+}
+
+.venicle-card{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  height:150px;
+}
+.venicle-flex{
+  display:flex;
+  flex-direction: row;
+  height: inherit;
+}
+.flexible{
+  display:flex;
+  flex-direction: row;
+}
+.car-left-side-card{
+  height:100%;
+  display:flex;
+  align-items: stretch;
+}
+.venicle-info{
+  padding-top: 3%;
+}
+.venicle-info:first-of-type{
+  margin-right: 25%;
+}
+.img-car-card{
+  width: 100%; /* or any custom size */
+  height: 100%; 
+  object-fit: contain;
+}
+.car-right-side-card{
+  margin-left: 3%;
+  width:65%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.venicle-label{
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.car-price-container{
+  display: flex;
+  margin-left: 25%;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.car-price-holder{
+  margin-left:5px;
+  height: 1.8em;
+  display:flex;
+  padding: 3px;
+  align-items: center;
+  background: yellow;
+  color:black;
+}
+.finder-list{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 20%;
+  height:fit-content;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  background: rgb(207, 204, 204);
+  box-shadow: -12px 0 8px -4px rgba(86, 86, 87, 0.8), 12px 0 8px -4px rgba(86, 86, 87, 0.8);
+}
+
+.hr-yellow{
+  width: 95%;
+  margin-top: 5px;
+}
+
+.standartItemInputForm{
+  min-width: 200px;
+  max-width: 11vw;
+  background: white;
+}
+.standartItemInput{
+  min-width: 195px;
+  max-width: 10vw;
+  background: white;
+  height: 24px;
+}
+.standartHalfItemInput{
+  min-width: 70px;
+  max-width: 3.5vw;
+  background: white;
+  height: 24px;
+}
+
+.standartHalfItemInputForm{
+  min-width: 200px;
+  max-width: 11vw;
+}
+
+.standartHalfItemInputDiv{
+  min-width: 72px;
+  max-width: 3.8vw;
+  background: white;
+  display: flex;
+}
+.standartHalfItemInputDiv:first-of-type{
+  margin-right: 1vw
+}
+
+.content-hidden{
+	display: none;
+}
+
+.formBorder{
+    border: solid black 1px;
+}
+
+.borderHidden{
+    border-style: none;
+    box-shadow: none;
+}
+.borderHidden:focus{
+    outline: none;
+}
+.flex{
+  display: flex;
+}
+.add-row{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  
+}
+.hrInputContainer{
+  margin-top: 1vh;
+  background-color: black;
+  color:black;
+  height: 1px;
+  width: 100%;
+  border: none;
+}
+.standartItemInput datalist{
+  min-width: 200px;
+  max-width: 11vw;
+}
+.select-input>option{
+  width:500px;
+}
+
+
+/*Slider css*/
+.price-input{
+  width: 100%;
+  display: flex;
+  margin: 10px 0 10px;
+}
+.price-input .field{
+  display: flex;
+  width: 100%;
+  height: 25px;
+  align-items: center;
+}
+.field input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 14px;
+  margin-left: 7px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #999;
+  appearance:inherit;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.price-input .separator{
+  width: 60px;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+}
+.slider{
+  height: 5px;
+  position: relative;
+  background: #ddd;
+  border-radius: 5px;
+}
+.slider .progress{
+  height: 100%;
+  left: 0%;
+  right: 0%;
+  position: absolute;
+  border-radius: 5px;
+  background: black;
+}
+.range-input{
+  position: relative;
+  margin-bottom: 10px;
+}
+.range-input input{
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  appearance:inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: black;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+input[type="range"]::-moz-range-thumb{
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: black;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+/*End slider css*/
+
+
+.submit-button{
+  margin-left:35%;
+  width:30%;
+}
+
+

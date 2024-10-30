@@ -1,0 +1,104 @@
+.account-profile{
+    background: white;
+	width: 14%;
+	margin-left:6%;
+}
+
+.container-container-account{
+    display: flex;
+	padding-top: 2vh;
+	flex-direction: row;
+}
+
+.account-profile .name-action-row{
+    padding-left: 25px;
+    font-size: 14pt;
+}
+
+.account-profile .action-row{
+	
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+}
+.button-acc{
+	padding: 5px 25px;
+	background-color: yellow ;
+	border-radius: 100px;
+	color: black;
+    opacity: 1;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+	transition: all .1s ease-in-out;
+}
+.newOffer{
+	font-size: 1.2em;
+	padding: 5px 15px;
+	background-color: yellow ;
+	border-radius: 100px;
+	color: black;
+    opacity: 1;
+	text-decoration: none;
+}
+.account-profile .action-row:hover{
+	transform: scale(1.04);
+	color: black;
+	box-shadow: 0 9px 9px rgba(225, 225, 0, 0.4);
+}
+
+.user-name-row{
+	font-size: 1.6em;
+	margin-bottom: 2vh;
+}
+
+.offers-container{
+	width: 70%;
+	margin-left: 5%;
+}
+
+.offers-container .my-offers-label-container{
+	margin-bottom: 2vh;
+	display: flex;
+	justify-content: space-between;
+}
+.my-offers-label{
+	font-size: 1.6em;
+}
+
+.offers-button-label button{
+	border-style: none;
+	margin-right: 1vw;
+	background-color: white;
+}
+
+.content-hidden{
+	display: none;
+}
+
+.img-offer{
+	width: 220px;
+}
+
+.draft, .offer{
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+}
+.button-account{
+	margin-right: 0.5vw;
+	padding-right: 0.2vw;
+}
+.offers-button-label .button-selection{
+	border: solid 1px black;
+}
+.car-information{
+	margin-left: 1.2vw;
+}
+.delete-timer{
+	margin-left: 1.2vw;
+}
+.buttons-draft{
+	margin-left: 1.2vw;
+	display: flex;
+	flex-direction: column;
+}

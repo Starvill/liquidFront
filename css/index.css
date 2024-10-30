@@ -1,0 +1,23 @@
+.tekst_sverhu_kartinki_after {
+  height:10px;
+  width:100%;
+  background: yellow;
+  margin-top: -10px;
+}
+
+.tekst_sverhu_kartinki {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  text-transform: uppercase;
+  color: black;
+  width: 50%;
+  padding: 10px;
+  text-align: start;
+  font: bold 24px/34px Helvetica, Sans-Serif;
+}
+@media(max-width:600px){
+  .tekst_sverhu_kartinki {
+  display: none;
+  }
+  }

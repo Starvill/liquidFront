@@ -1,0 +1,132 @@
+.center-container{
+    width: 45vw;
+    margin-left: 5vw;
+}
+.label-container{
+    margin-top: 4vh;
+}
+.add-block{
+    opacity: 1;
+    transition: opacity .3s ease-in;
+    margin-top: 56px;
+}
+.index-title{
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+}
+.text-text-Arial{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+}
+.container-input{
+    margin-left:22.5%
+}
+.text-size-xl{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.text-size-xxl{
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.add-row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    margin-right: -10px;
+}
+.discription-block{
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 1px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+.commentInput{
+    height: 20vh;
+    min-width: 476px;
+    max-width: 25%;
+    width:32vw;
+    vertical-align: top; /* Вертикальное выравнивание текста */
+    padding-top: 0; /* Убираем отступ сверху */
+    padding-bottom: 0; /* Убираем отступ снизу */
+}
+
+.label-under-input{
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.description-button{
+    margin-top: 1vh;
+    font-size: 1.2em;
+    margin-bottom: 2vh;
+    padding: 5px 25px;
+	background-color: yellow ;
+	border-radius: 100px;
+	color: black;
+    opacity: 1;
+    border: none;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+	transition: all .1s ease-in-out;
+}
+
+.description-button:hover{
+    transform: scale(1.04);
+	color: black;
+	box-shadow: 0 9px 9px rgba(225, 225, 0, 0.4);
+}
+
+.draft-button{
+    margin-top: 1vh;
+    font-size: 1.2em;
+    margin-bottom: 2vh;
+    padding: 5px 25px;
+	background-color: rgb(228, 222, 222) ;
+	border-radius: 100px;
+	color: black;
+    opacity: 1;
+    border: none;
+	text-decoration: none;
+	transition: all .1s ease-in-out;
+    margin-right: 3vw;
+}
+
+.draft-button:hover{
+    transform: scale(1.04);
+	color: black;
+	box-shadow: 0 9px 9px rgba(198, 198, 195, 0.4);
+}
+
+.content-hidden{
+	display: none;
+}
+
+.formBorder{
+    border: solid black 1px;
+}
+
+.borderHidden{
+    border-style: none;
+    box-shadow: none;
+}
+.borderHidden:focus{
+    outline: none;
+}
+.input-layout-after-mileage{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.standartItemInputForm{
+    min-width: 200px;
+}
+.standartItemInput{
+    min-width: 195px;
+}

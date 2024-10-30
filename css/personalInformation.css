@@ -1,0 +1,66 @@
+
+
+.input-row{
+	min-width:220px;
+	width: 100%;
+	height: 27px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: rgb(114, 114, 114);
+}
+.offers-container-personal{
+	width: 40%;
+	max-width: 550px;
+	margin-left: 5%;
+}
+.personal-information{
+	display: flex;
+	flex-direction: row;
+}
+
+.adress{
+	margin-left: 5%;
+}
+
+.pi{
+	margin: 2%;
+	margin-left: 0%;
+	font-size: larger;
+
+}
+
+.factical-adress{
+	font-size: larger;
+	margin: 2%;
+	margin-left: 0%;
+	text-decoration: none;
+}
+
+.save-information{
+	margin-left: 285px;
+	margin-top: 20px;
+	border-radius: 25px;
+	width: 160px;
+	height: 35px;
+	background-color: yellow;
+}
+
+.container-input-pd{
+	
+	margin-top: 10px;
+
+}
+
+
+.container-input-pd p{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+}
+.container-button-right{
+	margin-top: 10px;
+}
+.button-acc-right{
+	margin-bottom:8px;
+}

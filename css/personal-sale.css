@@ -1,0 +1,183 @@
+.description-button{
+    margin-top: 1vh;
+    font-size: 1.2em;
+    margin-bottom: 2vh;
+    padding: 5px 25px;
+	background-color: yellow ;
+	border-radius: 100px;
+	color: black;
+    opacity: 1;
+    border: none;
+	text-decoration: none;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+	transition: all .1s ease-in-out;
+}
+
+.description-button:hover{
+    transform: scale(1.04);
+	color: black;
+	box-shadow: 0 9px 9px rgba(225, 225, 0, 0.4);
+}
+.text-size-xl{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.text-size-xxl{
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.content-index-title{
+	margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 2vh;
+}
+
+.content-description-container{
+    margin-top: 2vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-block{
+    width: 80%;
+}
+.description{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.description span{
+	margin-bottom: 0.7vh;
+	
+}
+.description-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 1vh;
+}
+
+
+.personal-sale-container{
+    display: flex;
+}
+
+.about-steps{
+    width:40vw;
+    margin-right: 5vw;
+    margin-top: 56px;
+}
+
+ol {
+	list-style-type: none; 
+	counter-reset: num;
+	position: relative;	    
+	margin: 0 0 0 60px;
+	padding: 15px 0 5px 0;
+	font-size: 16px;
+}
+
+ol li h4{
+    font-size: 1.1rem;
+}
+ol .vertical-line-item {
+	position: relative;	
+	margin: 0 0 0 0;
+	padding: 0 0 70px 0;
+	line-height: 1.4;
+}
+ol .vertical-line-item:after {
+	content: counter(num); 
+	counter-increment: num;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: -55px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 50%;
+	border: 2px solid rgb(95, 95, 95);
+}
+/* Вертикальная линия */
+ol:before {
+	content: ''; 
+	position: absolute;
+	top: 15px;
+	bottom: 15px;
+	left: -40px;    
+	width: 1px;
+	border-left: 2px solid rgb(95, 95, 95);
+}
+/* Скрытие линии у последнего li */
+ol li:last-child:before {
+	content: ''; 
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -48px;
+	width: 28px;
+	background: #fff;
+}
+
+.liquid-label-li{
+    position: relative;	
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+	line-height: 1.4;
+    
+}
+ol .liquid-label-li:after {
+	content:'Liquid';
+	counter-increment: num;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: -71px;
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 50%;
+	border: 2px solid rgb(95, 95, 95);
+}
+
+.description-button-black{
+	margin-top: 1vh;
+    font-size: 1.2em;
+    margin-bottom: 2vh;
+	margin-left: 4vw;
+    padding: 5px 25px;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    opacity: 1;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(52, 48, 46, 0.2);
+    transition: all .1s ease-in-out;
+}
+.description-button-black:hover{
+    transform: scale(1.04);
+	box-shadow: 0 9px 9px rgba(43, 43, 40, 0.4);
+}
+.description-button-black a{
+	color: white;
+	text-decoration: none;
+}
+

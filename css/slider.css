@@ -1,0 +1,95 @@
+.slick-track{
+  display:flex;
+}
+/* Если слайдер оказался во flex элементе то в нём надо указать min-width:0 иначе работать не будет*/
+.slick-list{
+  overflow: hidden;
+}
+
+.slider-win{
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+}
+
+.slider-win img{
+border-radius: 2%;
+}
+
+.slick-arrow{
+  position: absolute;
+  border:0px;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  height:50px;
+  width: 30px;
+  margin: -2% 1.2% 0px 1.2%;
+}
+
+.slick-arrow.slick-prev{
+  left:0;
+  background: url('../img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+}
+
+.slick-arrow.slick-next{
+  right:0;
+  background: url('../img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.slider-controll {
+  display: flex;
+  flex-wrap: wrap;
+  max-width:100%;
+}
+
+.slider-item {
+  max-width: 25%;
+  border:2px solid transparent;
+}
+
+
+
+.modal-content{
+  background: none;
+  border: none;
+}
+
+.modal-body::-webkit-scrollbar{
+  width: 0px;
+}
+
+.modal-dialog{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.modal-header{
+  background: none;
+  border: none;
+}
+.modal-body{
+  background: none;
+  border: none;
+}
+
+.modal-header button{
+  background-color: yellow;
+}
+

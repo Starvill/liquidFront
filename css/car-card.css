@@ -1,0 +1,132 @@
+body{
+    background: rgb(48, 46, 46);
+}
+
+.slider{
+    max-width:100%;
+}
+.slider-container{
+    max-width: 43%;
+    margin-left: 9%;
+    margin-top: 1vh;
+}
+
+.car-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.car-info{
+    width:40%;
+    height: 61vh;
+    margin-left: 1%;
+    margin-top: 1vh;
+}
+
+.name-car-label{
+    height: 14vh;
+    font-size: 3.2vh;
+    display: flex;
+    overflow:hidden;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    background-color: black;
+}
+.name-car-label img{
+    position: absolute;
+    top:60%;
+    left:81%;
+    transform:translate(-50%,-50%);
+    object-fit:cover;
+    height: 140%;
+    opacity: 0.5;
+}
+.car-name{
+    margin-left:13%;
+    position: absolute;         
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.car-price-container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left:45%;
+    position: absolute;         
+    top: 50%;
+    font-size: 3vh;
+    transform: translate(0, -50%);
+  }
+
+.car-price-container p{
+    margin: 0 0 0 0;
+}
+
+.main-line{
+	font-size: 25px;
+	font-style: normal;
+	text-align: center;
+    margin-bottom: 0;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.car-row{
+    margin-top:3px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-num{
+	font-size: 1.1em;
+    margin-right: 1vw;;
+}
+
+.container-car-spec{
+    background-color: #222f3f;
+    color: white;
+    padding-left: 1%;
+}
+
+.emblem{
+	width: 1em;
+}
+.bet-right-now{
+	width: 63%;
+	margin-right: 14px;
+	align-self: center;
+	margin-top: 2vh;
+	padding: 7px;
+    height: 36px;
+	color: black;
+	background-color: rgb(240, 240, 240);
+	border: solid black 1.7px;
+	border-radius: 3px;
+	text-align: center;
+}
+.bet-right-now::placeholder {
+	text-align: center;
+ }
+
+.make-a-bet{
+    float: right;
+    margin-top: 2vh;
+	width: 33%;
+	height: 36px;
+	border: solid black 1.7px;
+	background-color: yellow;
+	border-radius: 3px; /* Сделать как аккаунт*/
+
+}
+
+.button-buy-now{
+	width: 100%;
+	margin-top: 1vh;
+	padding: 7px;
+	color: black;
+	background-color: yellow;
+	border: solid black 1.7px;
+	border-radius: 3px;
+}
